@@ -1,0 +1,23 @@
+{
+  "name": "salesforce-permissionset-behavior-v40",
+  "version": "0.1.0",
+  "description": "Demonstration of the PermissionSet behavior with API v40.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amtrack/salesforce-permissionset-behavior-v40.git"
+  },
+  "keywords": [
+    "salesforce",
+    "metadata"
+  ],
+  "author": "Matthias Rolke <mr.amtrack@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "force-dev-tool": "^0.13.1",
+    "mocha": "^3.4.2"
+  }
+}
