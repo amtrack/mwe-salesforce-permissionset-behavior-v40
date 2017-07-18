@@ -32,9 +32,19 @@ Three test cases will be run:
 
 The last test case is failing, verifying the observed behavior.
 
-## Running the test
+## Installation
 
 ```console
 $ npm install
+```
+
+## Running the test
+
+Inject your credentials for a developer edition and run the test
+
+```console
+$ export SFDC_USERNAME=mydevedition@example.com
+$ export SFDC_PASSWORD=passwordSecurityToken
+$ export SFDC_SERVER_URL=https://login.salesforce.com
 $ npm test
 ```
