@@ -2,8 +2,6 @@
 
 > Demonstration of the PermissionSet behavior with API v40.0
 
-[![Build Status](https://travis-ci.org/amtrack/salesforce-permissionset-behavior-v40.svg?branch=master)](https://travis-ci.org/amtrack/salesforce-permissionset-behavior-v40)
-
 ## Background
 
 With the [Summer '17 Release](https://releasenotes.docs.salesforce.com/en-us/summer17/release-notes/rn_api_meta.htm#updated_types_fields) the behavior for retrieving/deploying PermissionSets has changed:
@@ -30,11 +28,14 @@ Three test cases will be run:
 2. Retrieval of a PermissionSet with some CustomFields
 3. Retrieval of a PermissionSet with a CustomObject
 
-The last test case is failing, verifying the observed behavior.
+The last test case is failing, verifying the observed behavior:
+
+[![Build Status](https://travis-ci.org/amtrack/salesforce-permissionset-behavior-v40.svg?branch=master)](https://travis-ci.org/amtrack/salesforce-permissionset-behavior-v40)
 
 ## Installation
 
 ```console
+$ npm install -g npm@latest
 $ npm install
 ```
 
